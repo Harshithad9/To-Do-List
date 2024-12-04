@@ -1,10 +1,16 @@
-# 💫 About Me:
-Computer Science Student | Aspiring Developer<br><br>I'm a student learning computer science and coding. I enjoy working with programming languages like C, Python, and Java, and I'm exploring web development too. I'm always eager to learn new things and improve my skills. Looking forward to contributing to projects and growing as a developer!
+📋 To-Do List Web Application
+A sleek, interactive, and user-friendly To-Do List web application built with HTML, CSS, and JavaScript. This app allows users to efficiently manage their tasks with a clean interface and modern design. Users can add tasks, mark them as complete or incomplete, and organize tasks using a filter system.
 
+🚀 Features:
+Add Tasks: Easily add new tasks to your list.
+Thumbs-Up & Thumbs-Down Options: Mark tasks as completed or undo with a simple thumbs-up or thumbs-down button.
+Filter Tasks: Filter tasks by All, Completed, or Incomplete for better organization.
+Local Storage Integration: Your tasks are saved locally, so you never lose your progress after refreshing the page.
+Responsive Design: Fully responsive for desktop, tablet, and mobile screens.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+🛠️ Technologies Used:
+HTML5: Markup structure.
+CSS3: Custom styling for a modern look.
+JavaScript (ES6): Dynamic task management and user interactions.
 
----
-[![](https://visitcount.itsvg.in/api?id=Brainwave_Matrix_Intern-&icon=0&color=0)](https://visitcount.itsvg.in)
 
