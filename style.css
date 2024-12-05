@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darksalmon;
+  color: #f4d2d2;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  border: none;
+  background: white;
+  border-radius: 2rem;
+}
+
+form button {
+  color: #ffcc00;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 0.5rem;
+}
+
+form button:hover {
+  color: white;
+  background: #ff6347;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 2rem;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.todo-item {
+  padding: 0.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.slide {
+  transform: translateX(10rem);
+  opacity: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+select {
+  color: #ffcc00;
+  width: 10rem;
+  height: 3.2rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: #ff6347;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.select:hover::after {
+  background: white;
+  color: #ff6347;
+}
+
+.thumbs-up-btn,
+.thumbs-down-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.thumbs-up-btn {
+  color: green;
+}
+
+.thumbs-up-btn:hover {
+  background-color: #d4f4d2;
+}
+
+.thumbs-down-btn {
+  color: red;
+}
+
+.thumbs-down-btn:hover {
+  background-color: #f4d2d2;
+}
