@@ -13,9 +13,14 @@ A sleek, interactive, and user-friendly To-Do List web application built with HT
 
 📋 Responsive Design: Fully responsive for desktop, tablet, and mobile screens.
 
+
+
 🛠️ Technologies Used:
+
 🚀 HTML: Markup structure.
+
 🚀 CSS: Custom styling for a modern look.
+
 🚀 JavaScript: Dynamic task management and user interactions.
 
 
