@@ -3,9 +3,13 @@ A sleek, interactive, and user-friendly To-Do List web application built with HT
 
 🚀 Features:
 📋 Add Tasks: Easily add new tasks to your list.
+
 📋 Thumbs-Up & Thumbs-Down Options: Mark tasks as completed or undo with a simple thumbs-up or thumbs-down button.
+
 📋 Filter Tasks: Filter tasks by All, Completed, or Incomplete for better organization.
+
 📋 Local Storage Integration: Your tasks are saved locally, so you never lose your progress after refreshing the page.
+
 📋 Responsive Design: Fully responsive for desktop, tablet, and mobile screens.
 
 🛠️ Technologies Used:
